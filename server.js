@@ -16,7 +16,9 @@ const corsOptions = {
   origin: [ 
   'http://localhost:5173',
   'https://yagnitm.github.io',
-  'https://yagnitm.github.io/housing-complex-management'
+  'https://yagnitm.github.io/housing-complex-management',
+  'https://housingfy-clean-frontend.vercel.app',
+  'housingfy-clean-frontend2.onrender.com'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
