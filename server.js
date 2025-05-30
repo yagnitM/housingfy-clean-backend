@@ -15,8 +15,6 @@ const app = express();
 const corsOptions = {
   origin: [ 
   'http://localhost:5173',
-  'https://yagnitm.github.io',
-  'https://yagnitm.github.io/housing-complex-management',
   'https://housingfy-clean-frontend.vercel.app',
   'https://housingfy-clean-frontend2.onrender.com'
   ],
